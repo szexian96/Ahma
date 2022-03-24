@@ -83,9 +83,9 @@ const Navbar = () => {
         </Left>
         
         <Right>
-        <Link to = {`/register`}><MenuItem>REGISTER</MenuItem></Link>
-        <Link to = {`/login`}><MenuItem>LOGIN</MenuItem></Link>
-        <Link to = {`/cart`}><MenuItem>
+        <Link to = {`/register`} style={{ textDecoration: 'none' }}><MenuItem>REGISTER</MenuItem></Link>
+        <Link to = {`/login`} style={{ textDecoration: 'none' }}><MenuItem>LOGIN</MenuItem></Link>
+        <Link to = {`/cart`} style={{ textDecoration: 'none' }}><MenuItem>
             <Badge badgeContent={0} color="primary">
               <ShoppingCartOutlined/>
             </Badge>
