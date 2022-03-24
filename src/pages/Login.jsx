@@ -74,7 +74,7 @@ const Login = () => {
     <Container>
       <Wrapper>
       <Navbar/>
-      <Logo><Image src="https://firebasestorage.googleapis.com/v0/b/ahma-homemade.appspot.com/o/LOGO-modified.png?alt=media&token=3c78fef7-d855-4b86-b102-1bacad22d144"/></Logo>
+      <Link to = {`/`} style={{ textDecoration: 'none' }}><Logo><Image src="https://firebasestorage.googleapis.com/v0/b/ahma-homemade.appspot.com/o/LOGO-modified.png?alt=media&token=3c78fef7-d855-4b86-b102-1bacad22d144"/></Logo></Link>
         <Title>SIGN IN</Title>
         <Form>
           <Input placeholder="username" />
