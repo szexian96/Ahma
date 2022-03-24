@@ -14,7 +14,7 @@ import {
 
 
 const App = () => {
-  const user = true //if true then go homepage
+  const user = false //if true then go homepage
   return (
     <Router>
       <Routes>
