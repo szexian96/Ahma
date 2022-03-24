@@ -60,7 +60,7 @@ const Button = styled.button`
   }
 `;
 
-const Link = styled.a`
+const Links = styled.a`
   margin: 5px 0px;
   font-size: 12px;
   text-decoration: underline;
@@ -80,8 +80,8 @@ const Login = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
-          <Link>CREATE A NEW ACCOUNT</Link>
+          <Links>DO NOT YOU REMEMBER THE PASSWORD?</Links>
+          <Links>CREATE A NEW ACCOUNT</Links>
         </Form>
       </Wrapper>
     </Container>
