@@ -116,7 +116,7 @@ const Product = () => {
       <Announcement/>
       <Wrapper>
         <ImgContainer>
-          <Image src="https://firebasestorage.googleapis.com/v0/b/ahma-homemade.appspot.com/o/IMG_3459.jpg?alt=media&token=bc3edb11-25de-49da-aad4-4a6732afd19c"/>
+          <Image src="https://firebasestorage.googleapis.com/v0/b/ahma-homemade.appspot.com/o/IMG_3376.jpg?alt=media&token=3b70aaaa-fa2d-4686-8d33-0bff8e302823"/>
         </ImgContainer>
         <InfoContainer>
           <Title>PINEAPPLE POP TARTS</Title>

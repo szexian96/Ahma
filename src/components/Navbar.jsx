@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Search, ShoppingCartOutlined } from '@material-ui/icons'; //install at npm and import from material-ui
 import { Badge } from '@material-ui/core';
 import { mobile } from '../responsive';
+import { Link } from 'react-router-dom';
 
 /* new design for div container*/
 /*same like css*/
@@ -78,16 +79,18 @@ const Navbar = () => {
     <Container> 
       <Wrapper>
         <Left>
-        <Logo>AHMA'S HOMEMADE</Logo>
+        <Link to = {`/`} style={{ textDecoration: 'none' }}><Logo>AHMA'S HOMEMADE</Logo></Link>
         </Left>
+        
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>LOGIN</MenuItem>
-          <MenuItem>
+        <Link to = {`/register`}><MenuItem>REGISTER</MenuItem></Link>
+        <Link to = {`/login`}><MenuItem>LOGIN</MenuItem></Link>
+        <Link to = {`/cart`}><MenuItem>
             <Badge badgeContent={0} color="primary">
               <ShoppingCartOutlined/>
             </Badge>
           </MenuItem>
+          </Link>
         </Right>
       </Wrapper>
     </Container>

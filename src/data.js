@@ -38,11 +38,13 @@ export const categories = [
   id: 1,
   img:  "https://firebasestorage.googleapis.com/v0/b/ahma-homemade.appspot.com/o/LOGO-modified.png?alt=media&token=3c78fef7-d855-4b86-b102-1bacad22d144",
   title: "ABOUT US",
+  cat: "about us"
 },
 {
   id: 2,
   img:  "https://firebasestorage.googleapis.com/v0/b/ahma-homemade.appspot.com/o/IMG_6078.jpg?alt=media&token=7dd57788-78a1-4914-9da9-d3a3f4f47d35",
   title: "CNY COOKIES",
+  cat: "Cookies"
 }
 ]
 
